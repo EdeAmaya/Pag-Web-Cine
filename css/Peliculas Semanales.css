@@ -119,6 +119,25 @@ header img {
     background-color: #0D0D0D;
 }
 
+/*Inicio del div*/
+div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+div h1{
+    text-align: left; 
+}
+
+
+div div img{
+    width: 350px;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+}
+
 /*Inicio Footer*/
 
 footer {
