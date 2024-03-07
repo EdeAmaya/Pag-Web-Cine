@@ -119,6 +119,28 @@ section a:hover {
   nav a {
     text-align: center;
   }
+  .carousel {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .carosel-nuevo {
+    display: none;
+  }
+  
+  .carosel-nuevo img {
+    width: 100%;
+    height: auto;
+  }
+  
+  @keyframes carouselAnimation {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
   
   @media screen and (max-width: 499px) {
       header img {
