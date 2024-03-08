@@ -1,3 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+div .contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    min-height: 100vh;
+    background-color: #000 ;
+}
+
+.contenedor{
+    margin: 150px auto;
+    width: 70%;
+    background-color: #f2bc1b ;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.contenedor img{
+    max-width: 320px;
+    float: left;
+    border: 3px solid #353caf;
+    border-radius: 15px;
+    margin-right: 15px;
+}
+
+.tarjeta h1{
+    font-size: 42px;
+}
+
+.tarjeta p{
+    font-size: 16px;
+}
+
+/*Inicio Header*/
 header {
     width: 100%;
     border: 1px solid #000;
@@ -119,24 +159,10 @@ header img {
     background-color: #0D0D0D;
 }
 
-/*Inicio del div*/
-div{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-
-div h1{
-    text-align: left; 
-}
+/*Tarjeta*/
 
 
-div div img{
-    width: 350px;
-    height: 250px;
-    display: flex;
-    flex-direction: row;
-}
+
 
 /*Inicio Footer*/
 
