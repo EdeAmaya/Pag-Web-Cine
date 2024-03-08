@@ -1,4 +1,14 @@
 
+
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
+
 /* Contenedor */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap');
 *{
