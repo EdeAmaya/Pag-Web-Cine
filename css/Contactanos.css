@@ -3,7 +3,7 @@
 }
 
 body {
-    background: #757769;
+    background: #13005a;
     color: #fff;
     line-height: 1.6;
     font-family: 'Quicksand', sans-serif;
@@ -51,7 +51,8 @@ ul {
 }
 
 .contact-form {
-    background: #127369;
+    background: #ffffff;
+    color: #000;
 }
 
 .contact-form form {
@@ -80,12 +81,12 @@ ul {
     border: none;
     background: none;
     outline: 0;
-    color: #fff;
+    color: #000000;
     border-bottom: 1px solid #10403B;
 }
 
 .contact-form form button {
-    background: #127369;
+    background: #f0c929;
     border: 0;
     text-transform: uppercase;
     padding: 1em;
