@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snacks</title>
+    <link rel="stylesheet" href="../css/styleGeneral.css">
+    <link rel="stylesheet" href="../css/Snacks.css">
+
+</head>
+
+<body>
+    <header>
+        <img src="logo" alt="logo">
+        <h2 id="encabezado">Snacks</h2>
+        <nav>
+            <div>
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="../pages/Peliculas Semanales.html">Peliculas semanales</a></li>
+                    <li><a href="../pages/Snacks.html">Snacks</a></li>
+                    <li><a href="../pages/SobreNosotros.html">Sobre Nosotros</a></li>
+                    <li><a href="../pages/Contactanos.html">Contactanos</a></li>
+                    <li>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+
+
+    <section class="contenido">
+        <div class="mostrador" id="mostrador">
+            <div class="fila">
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="../RV/img/PalomitaP.png" alt="">
+                    </div>
+                    <p class="descripcion">Palomitas Pequeñas</p>
+                    <span class="precio">$ 1.50</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="../RV/img/PalomitasM.png" alt="">
+                    </div>
+                    <p class="descripcion" id>Palomitas Medianas</p>
+                    <span class="precio">$ 2.50</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="../RV/img/PalomitasG.png" alt=""></div>
+                    <p class="descripcion">Palomitas Grandes</p>
+                    <span class="precio">$ 3.50</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="../RV/img/HotDog.jpg" alt="">
+                    </div>
+                    <p class="descripcion">Hot-Dogs</p>
+                    <span class="precio">$ 2.00</span>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="../RV/img/CocaCola.jpg" alt="">
+                    </div>
+                    <p class="descripcion">Coca-Cola</p>
+                    <span class="precio">$ 1.00</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="../RV/img/Fanta.png" alt="">
+                    </div>
+                    <p class="descripcion">Fanta</p>
+                    <span class="precio">$ 1.00</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="../RV/img/Hamburguesa.jpg" alt="">
+                    </div>
+                    <p class="descripcion">Hamburguesa</p>
+                    <span class="precio">$ 2.50</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="../RV/img/Papas.png" alt="">
+                    </div>
+                    <p class="descripcion">Papas Fritas</p>
+                    <span class="precio">$ 1.50</span>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- CONTENEDOR DEL ITEM SELECCIONADO -->
+        <div class="seleccion" id="seleccion">
+            <div class="cerrar" onclick="cerrar()">
+                &#x2715
+            </div>
+            <div class="info">
+                <img src="img/1.png" alt="" id="img">
+                <h2 id="modelo">NIKE MODEL 1</h2>
+                <p id="descripcion">Descripción Modelo 1</p>
+
+                <span class="precio" id="precio">$ 130</span>
+
+                <div class="fila">
+                    
+                    <button>AGREGAR AL CARRITO</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="../js/jsSnacks.js"></script>
+
+    <footer>
+        <h3>Inicio</h3>
+        <div id="socialNet">
+            <a href="https://www.instagram.com/" target="_blank"><img src="../sources/instagram.png" class="redes"></a>
+            <a href="https://www.twitter.com/" target="_blank"><img src="../sources/twitter.png" class="redes"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="../sources/facebook.png" class="redes"></a>
+            <a href="https://www.pinterest.com/" target="_blank"><img src="../sources/pinterest.png" class="redes"></a>
+        </div>
+        <p>2273-6000</p>
+        <p id="copyr">Copyright © 2024</p>
+        <p id="version">v1.1</p>
+    </footer>
+    
+</body>
+
+
+</html>
