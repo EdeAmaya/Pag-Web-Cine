@@ -133,7 +133,7 @@ footer p {
 footer {
     display: flex;
     flex-wrap: wrap;
-    position: fixed;
+    position: relative;
     bottom: 0;
     right: 0;
   }
