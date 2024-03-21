@@ -37,7 +37,7 @@ div .contenedor{
     font-size: 16px;
 }
 
-/*Inicio Header*/
+/*Inicio Header
 header {
     width: 100%;
     border: 1px solid #000;
@@ -152,19 +152,18 @@ nav div {
     background-color: #0d0d0d;
 
     se repite...?
-}*/
+}
 
 header img {
     width: 10%;
     background-color: #0D0D0D;
 }
 
-/*Tarjeta*/
 
 
 
 
-/*Inicio Footer*/
+/*Inicio Footer
 
 footer {
     width: 100%;
