@@ -1,3 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 header {
   width: 100%;
   border: 1px solid #000;
@@ -112,9 +118,107 @@ header img {
   background-color: #0D0D0D;
 }
 
+
+
+
+
 /* Inicio Footer*/
 
+footer {
+  background-color: #000;
+}
 
+.piepag {
+  width: 100%;
+  padding: 70px 30px 20px;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+}
+
+.socialIcons a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.socialIcons a i {
+  font-size: 2em;
+  color: #000;
+  opacity: 0.9;
+}
+
+/*Hover en los iconos*/
+
+.socialIcons a:hover {
+  background-color: #000;
+  transition: 0.5s;
+}
+
+.socialIcons a:hover i {
+  color: white;
+  transition: 0.5s;
+}
+
+/*Navegación del footer*/
+
+.footerNav {
+  margin: 30px;
+
+}
+
+.footerNav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: nones;
+}
+
+.footerNav ul li a {
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3rem;
+  opacity: 0.2;
+  transition: 0.5s;
+}
+
+.footerNav ul li a:hover {
+  opacity: 1;
+}
+
+.footerB {
+  background-color: grey;
+  padding: 20px;
+  text-align: center;
+}
+
+.footerB p {
+  color: white;
+}
+
+.diseño {
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
+}
+
+@media (max-width: 700px){
+  .footerNav ul {
+    flex-direction: column;
+  }
+
+  .footerNav ul li {
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+  }
+}
 
 
 
@@ -168,4 +272,3 @@ footer {
   bottom: 0;
   right: 0;
 }*/
-
